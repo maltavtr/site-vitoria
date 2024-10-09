@@ -90,12 +90,12 @@ div >h3{
     padding-top: 23px;
     font-size: 15px;
 }
-img{
-    
+img#fotosobremim{
     height: 290px;
     width: 200px;
     border-radius: 50% 50% 0% 0%;
 }
+
 .conteudo{
     display: table;
 }
@@ -121,6 +121,7 @@ img{
 .item1{
     height: 150px;
     width: 100px;
+    border-radius: 50% 50% 0% 0%;
 }
 #container2{
     display: flex;
@@ -157,4 +158,127 @@ section > h3.item2{
     align-content: center;
     justify-content: space-evenly;
     padding-top: 10px;
+}
+
+#container5{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+.item5{
+    height: 100px;
+    width: 80px;
+}
+#projetos{
+    height: 120px;
+    width: 100px;
+    padding: 30px;
+}
+#container6{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.item6{
+    height: 120px;
+    width: 100px;
+    padding-top: 10px;
+}
+h3.item6{
+    padding-top: 10px;
+    font-weight: normal;
+    height: 30px;
+}
+#container7{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.item7{
+    height: 120px;
+    width: 100px;
+    padding-top: 10px;
+}
+h3.item7{
+    padding-top: 10px;
+    font-weight: normal;
+    height: 30px;
+}
+#container8{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.item8{
+    height: 120px;
+    width: 100px;
+    padding-top: 10px;
+}
+h3.item8{
+    padding-top: 10px;
+    font-weight: normal;
+    height: 30px;
+}
+#container9{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly; 
+}
+h3.item9{
+    padding-top: 20px;
+    height: 30px;
+}
+#container10{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+p.item10{
+    font-size: 14px;
+}
+img#ultimaf{
+        height: 250px;
+        width: 170px;
+        float: left;
+        border-radius: 10% 48% 0% 0%;
+        padding-top: 80px;
+        padding-left: 40px;
+        padding-bottom: 50px;
+        
+}
+h2#textofinal{
+    padding-top: 80px;
+    font-size: 22px;
+}
+.barrafinal{
+    border: none;
+    border-top: 2px solid #E7B84B;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10%;
+    
+}
+h3#dadosfinais{
+    font-weight: normal;
+    padding-top: 20px;
+    
+    padding-left: 80px;
+}
+img#whats{
+    height: 30px;
+    width: 30px;
+    padding-top: -50px;
+    display: block;
+    transform: translate(665% , -112%);
+}
+img#email{
+    height: 30px;
+    width: 30px;
+    padding-top: -50px;
+    display: block;
+    transform: translate(37% , -309%);
+
 }
