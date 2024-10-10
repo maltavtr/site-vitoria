@@ -3,9 +3,10 @@
 *{
     margin: 0px;
     padding: 0px;
+    
 }
 body , html{
-    
+    overflow-x: hidden;
     height: 100vh;
     width: 100vw; 
 }
@@ -97,13 +98,13 @@ img#fotosobremim{
 }
 
 .conteudo{
-    display: table;
+    display: flex;
 }
 .imagem{
-    display: table-cell;
+    display: flex;
     float: right;
     padding-top: 35px;
-    transform: translateX(-25px);
+    transform: translateX(15px);
     
 }
 .texto{
